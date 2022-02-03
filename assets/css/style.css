@@ -1,0 +1,816 @@
+body{
+    padding-top: 120px;
+    background: #f2f2f2;
+}
+
+
+.bgColor {
+    background: #f2f2f2;
+}
+
+.navBar svg{
+    width: 30px;
+    height: 30px;
+    position: relative;
+}
+
+.navBar {
+    padding: 30px 0 50px;
+    background: #f2f2f2;
+    z-index: 10000000;
+    top: 0;
+    max-width: 1300px;
+    margin: auto;
+}
+
+.navBar li a {
+    text-decoration: none;
+    color: gray;
+    font-weight: 100;
+}
+
+.navBar li{
+    padding-right: 20px;
+}
+
+.navBar li{
+    color: gray;
+}
+
+.navBar h2{
+    position: absolute;
+    top: 45px;
+    left: 75px;
+    font-size: 20px;
+}
+
+.navBarWidth {
+    width: 100%;
+    margin: auto;
+    top: 0;
+    position: fixed;
+    background: #f2f2f2;
+    z-index: 10000000;
+}
+
+.mainSection{
+    background: url("../images/74f558_66357e0ecfea4c86b2ea0bce6e8a9447_mv2.webp");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    max-width: 1300px;
+    margin: auto;
+    position: relative;
+}
+
+.mainSection:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.3);
+    top: 0;
+    left: 0;
+}
+
+.mainText{
+    color: white;
+    width: 100%;
+    max-width: 600px;
+    padding: 200px 0 200px 20px;
+    z-index: 10000;
+    position: relative;
+}
+
+.mainText h1 {
+    font-size: 70px;
+    padding-bottom: 50px;
+}
+
+.mainText a {
+    text-decoration: none;
+    color: gray;
+    display: inline-block;
+    border: 1px solid gray;
+    background: white;
+    padding: 5px 20px;
+}
+
+.backgroundLeft{
+    background: url("../images/84770f_59a5515ed0ea48efb3f1a7e3ce3098cc_mv2.webp");
+    height: 650px;
+    max-width: 650px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
+
+.leadingBay{
+    padding-top: 50px;
+}
+
+.leadingRight {
+    max-width: 500px;
+    padding-left: 60px;
+}
+
+.leadingRight h2 {
+    font-size: 40px;
+}
+
+.leadingRight p {
+    color: gray;
+    padding: 30px 0;
+}
+
+.leadingRight a {
+    text-decoration: none;
+    border: 1px solid black;
+    color: white;
+    background: black;
+    padding: 10px 30px;
+    display: inline-block;
+}
+
+.leadingBay, .discussProject{
+    max-width: 1300px;
+    margin: auto;
+}
+
+.chooseUs {
+    max-width: 1300px;
+    margin: auto;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.chooseUs h2, .ourServices h2, .customers h2 {
+    font-size: 40px;
+    padding-bottom: 70px;
+    text-align: center;
+}
+
+.chooseText h3 {
+    color: brown;
+    font-size: 25px;
+    padding-bottom: 30px;
+}
+
+.chooseText {
+    width: 250px;
+    margin: auto;
+}
+
+.chooseText p{
+    color: gray;
+}
+
+.ourPics{
+    position: relative;
+}
+
+.ourServices img {
+    max-width: 100%;
+    width: 100%;
+}
+
+.ourPics h3{
+    position: absolute;
+    top: 45%;
+    left: 37%;
+    color: white;
+}
+
+.ourPics:before{
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,0.3);
+}
+
+.ourServices{
+    max-width: 1300px;
+    margin: auto;
+    padding: 100px 0;
+}
+
+.ourLink a{
+    text-decoration: none;
+    border: 1px solid black;
+    color: white;
+    background: black;
+    padding: 10px 30px;
+    display: inline-block;
+}
+
+.ourLink{
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.bgColor1 {
+    background: #dfdfdfad;
+}
+
+.customerText {
+    width: 260px;
+    margin: auto;
+    text-align: center;
+}
+
+.customerText svg {
+    width: 30px;
+    display: block;
+    margin: auto;
+}
+
+.customerText h4{
+    color: brown;
+}
+
+.customerText p{
+    padding: 70px 0 20px;
+    color: gray;
+}
+
+.customers {
+    background: #f2f2f2;
+    padding: 100px 0;
+}
+
+.projectText h2 {
+    font-size: 40px;
+    padding: 30px 0;
+    color: white;
+}
+
+.projectText {
+    max-width: 400px;
+}
+
+.bgColor2 {
+    background: #202020;
+    padding: 100px 0;
+}
+
+.discussProject{
+    color: gray;
+}
+
+p.projectP {
+    padding: 10px 0;
+}
+
+.projectText span {
+    padding-top: 10px;
+    display: block;
+    color: white;
+}
+
+.projectText a {
+    text-decoration: none;
+    color: gray;
+    padding-bottom: 20px;
+    display: block;
+}
+
+.projectForm input, .projectForm textarea{
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+    border-radius: 0;
+    margin-bottom: 10px;
+}
+
+.projectForm{
+    max-width: 500px;
+}
+
+.projectForm button{
+    background: white;
+    border: 1px solid black;
+    color: black;
+    width: 470px;
+    padding: 10px 0;
+    border-radius: 0;
+}
+
+.projectForm button:hover {
+    border: 1px solid black;
+    color: brown;
+    background: white;
+}
+
+.projectForm .form-group {
+    margin-bottom: 10px;
+}
+
+.ourRewards {
+    margin: auto;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.ourRewards img {
+    max-width: 150px;
+}
+
+.rewardFooter{
+    text-align: right;
+}
+
+.rewardFooter i {
+    font-size: 20px;
+    padding-right: 20px;
+}
+
+.rewardFooter1 a {
+    text-decoration: none;
+    color: gray;
+}
+
+.rewardFooter1{
+    text-align: left;
+}
+
+.rewardFooter1 p{
+    color: gray;
+}
+
+.footerFirst {
+    padding-bottom: 100px;
+}
+
+.mainText a:hover {
+    color: brown;
+    border: 1px solid gray;
+    background: white;
+}
+
+.leadingRight a:hover, .ourLink a:hover{
+    color: white;
+    border: 1px solid brown;
+    background: brown;
+}
+
+@media(max-width:1200px){
+    /* .navBarWidth{
+        max-width: 992px;
+    } */
+
+    /* .navBar{
+        max-width: 992px;
+    } */
+
+    .mainText h1 {
+        font-size: 45px;
+    }
+
+    .leadingRight {
+        padding-left: 20px;
+    }
+
+    .leadingRight {
+        padding-left: 20px;
+    }
+
+    .ourPics h3 {
+        left: 32%;
+    }
+}
+
+@media(max-width:991px){
+    body{
+        padding-top: 100px;
+    }
+
+    .navBar h2{
+        left: 70px;
+    }
+
+    .navBar{
+        padding: 30px;
+    }
+
+    .mainText h1 {
+        font-size: 35px;
+    }
+
+    .leadingRight h2 {
+        font-size: 30px;
+    }
+
+    .chooseText {
+        padding-bottom: 20px;
+    }
+
+    .chooseUs h2 {
+        padding: 50px 0;
+        font-size: 35px;
+    }
+
+    .chooseUs{
+        padding: 0;
+    }
+
+    .chooseText h3 {
+        font-size: 22px;
+    }
+
+    .ourServices {
+        padding: 50px 0;
+    }
+
+    .ourServices h2 {
+        font-size: 30px;
+        padding-bottom: 30px;
+    }
+
+    .ourPics h3 {
+        font-size: 20px;
+    }
+    
+    .customers {
+        padding: 50px 0;
+    }
+
+    .customers h2 {
+        font-size: 30px;
+    }
+
+    .customerText p {
+        padding: 30px 0 0;
+    }
+
+    .customerText h4 {
+        font-size: 20px;
+    }
+    
+    .bgColor2 {
+        padding: 50px 0;
+    }
+
+    .projectText{
+        margin: auto;
+        text-align: center;
+        padding-bottom: 20px;
+    }
+
+    .projectText h2 {
+        padding: 10px 0;
+        font-size: 35px;
+    }
+
+    .projectText span {
+        padding-top: 0;
+    }
+
+    .projectForm {
+        margin: auto;
+        max-width: 400px;
+    }
+
+    .projectForm button{
+        width: 370px;
+    }
+
+    .ourRewards {
+        padding: 50px 0;
+    }
+
+    .ourRewards img {
+        width: 100px;
+    }
+
+    .footerFirst {
+        padding-bottom: 50px;
+    }
+
+    .rewardFooter1 p {
+        font-size: 12px;
+    }
+
+    .rewardFooter i {
+        font-size: 17px;
+    }
+
+    .mainText {
+        padding: 130px 0 130px 20px;
+    }
+}
+
+@media(max-width:767px){
+    .navBar button {
+        font-size: 15px;
+    }
+
+    .navBar {
+        padding: 10px 15px 10px;
+    }
+
+    body{
+        padding-top: 60px;
+    }
+
+    .navBar h2 {
+        top: 28px;
+        left: 60px;
+        font-size: 18px;
+    }
+
+    .mainText {
+        padding: 100px 0 100px 20px;
+    }
+
+    .mainText h1 {
+        font-size: 30px;
+    }
+
+    .mainText a, .leadingRight a, .ourLink a {
+        font-size: 12px;
+    }
+    
+    .backgroundLeft {
+        display: none;
+    }
+
+    .leadingRight {
+        margin: auto;
+        text-align: center;
+    }
+
+    .leadingBay {
+        padding: 30px 0;
+    }
+
+    .leadingBay h2 {
+        font-size: 25px;
+    }
+
+    .leadingRight p {
+        padding: 10px 0;
+        font-size: 14px;
+    }
+
+    .chooseUs h2 {
+        font-size: 25px;
+        padding: 10px 0 30px;
+    }
+
+    .chooseText h3 {
+        font-size: 19px;
+        padding-bottom: 10px;
+    }
+
+    .ourServices {
+        padding: 10px 0;
+    }
+
+    .ourServices h2 {
+        font-size: 25px;
+        padding-bottom: 10px;
+    }
+
+    .ourPics{
+        max-width: 300px;
+        max-height: 300px;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+
+    .ourPics img{
+        max-width: 300px;
+        max-height: 300px;
+    }
+
+    .ourPics h3 {
+        left: 110px;
+    }
+
+    .ourLink {
+        padding-top: 0;
+    }
+
+    .customers {
+        padding: 20px 0;
+    }
+
+    .customers h2 {
+        font-size: 25px;
+        padding-bottom: 30px;
+    }
+    
+    .customerText svg {
+        width: 25px;
+    }
+    
+    .customerText {
+        padding-bottom: 20px;
+    }
+
+    .customerText h4 {
+        font-size: 17px;
+    }
+
+    .bgColor2 {
+        padding: 10px 0;
+    }
+
+    .projectText h2 {
+        font-size: 25px;
+    }
+
+    .ourRewards {
+        padding: 10px 0;
+    }
+
+    .footerFirst {
+        padding-bottom: 20px;
+    }    
+
+}
+
+@media(max-width:575px){
+    .navBar svg {
+        width: 20px;
+    }
+
+    .navBar h2 {
+        font-size: 15px;
+        left: 40px;
+        top: 27px;
+    }
+
+    .navBar button {
+        font-size: 10px;
+        padding: 5px 10px;
+    }
+
+    .mainText {
+        padding: 30px 0 30px 10px;
+    }
+
+    .mainText h1 {
+        font-size: 18px;
+        width: 200px;
+        padding-bottom: 0;
+    }
+
+    .mainText a {
+        font-size: 8px;
+        padding: 5px;
+    }
+
+    .mainSection{
+        background-attachment: inherit;
+    }
+
+    .leadingBay {
+        padding: 10px 0;
+    }
+
+    .leadingBay h2 {
+        font-size: 15px;
+    }
+
+    .leadingBay p {
+        font-size: 12px;
+        margin-bottom: 0;
+    }
+
+    .leadingRight a {
+        font-size: 9px;
+        padding: 5px 10px;
+    }
+
+    .chooseUs h2 {
+        font-size: 17px;
+        padding-bottom: 15px;
+    }
+
+    .chooseText h3 {
+        font-size: 15px;
+        padding-bottom: 0px;
+    }
+
+    .chooseText {
+        padding-bottom: 5px;
+    }
+
+    .chooseText p {
+        font-size: 12px;
+    }
+
+    .ourServices h2 {
+        font-size: 17px;
+        padding-bottom: 5px;
+    }
+
+    .ourPics{
+        max-width: 150px;
+        max-height: 150px;
+        margin-bottom: 10px;
+    }
+
+    .ourPics img{
+        max-width: 150px;
+        max-height: 150px;
+    }
+
+    .ourPics h3 {
+        left: 43px;
+        font-size: 15px;
+    }
+
+    .ourLink a {
+        font-size: 9px;
+        padding: 5px 10px;
+    }
+
+    .customers {
+        padding: 10px 0;
+    }
+
+    .customers h2 {
+        font-size: 18px;
+        padding-bottom: 20px;
+    }
+
+    .customerText svg {
+        width: 17px;
+    }
+
+    .customerText p {
+        font-size: 12px;
+        padding-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .customerText h4 {
+        font-size: 13px;
+    }
+
+    .customerText {
+        padding-bottom: 12px;
+    }
+
+    .projectText h2 {
+        font-size: 16px;
+    }
+
+    .projectText p {
+        font-size: 12px;
+    }
+
+    .projectText p {
+        font-size: 12px;
+        margin-bottom: 5px;
+    }
+
+    .projectText span {
+        font-size: 13px;
+    }
+
+    p.projectP {
+        padding: 5px;
+    }
+
+    .projectText a {
+        font-size: 13px;
+        padding-bottom: 10px;
+    }
+
+    .projectForm label {
+        font-size: 12px;
+    }
+
+    .projectForm button {
+        width: 100px;
+        font-size: 12px;
+        padding: 5px;
+    }
+
+    .projectButton {
+        margin: auto;
+        text-align: center;
+    }
+
+    .footerFirst img {
+        width: 50px;
+    }
+
+    .rewardFooter1 p {
+        font-size: 9px;
+    }
+
+    .rewardFooter i {
+        font-size: 12px;
+        padding-right: 10px;
+    }
+    
+    
+}
